@@ -9,9 +9,6 @@ import poker.Poker;
 public class PokerTest {
 	private Poker poker;
 
-	/**
-	 * Sets up the test fixture. Called before every test case method.
-	 */
 	@Before
 	public void setUp() {
 		poker = new Poker();
