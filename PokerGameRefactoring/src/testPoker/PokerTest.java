@@ -9,6 +9,7 @@ import poker.Poker;
 public class PokerTest {
 	private Poker poker;
 
+	
 	@Before
 	public void setUp() {
 		poker = new Poker();
