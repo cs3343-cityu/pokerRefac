@@ -9,7 +9,7 @@ import poker.Poker;
 public class PokerTest {
 	private Poker poker;
 
-	
+	// New line 
 	@Before
 	public void setUp() {
 		poker = new Poker();
