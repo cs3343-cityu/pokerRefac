@@ -9,10 +9,6 @@ import poker.Poker;
 public class PokerTest {
 	private Poker poker;
 
-	// New line 
-	// 2 line  
-	
-	
 	@Before
 	public void setUp() {
 		poker = new Poker();
@@ -96,22 +92,7 @@ public class PokerTest {
 		assertEquals(true, result);
 	}
 	
-	@Test 
-	public void testIsThreeOfaKind_1()
-	{
-		boolean result;
-		String[] input = new String[] {"D1", "C5", "D5", "H5", "C9"};
-		result = poker.isThreeOfaKind(input, 5);
-		assertEquals(true, result);
-	}
-	@Test 
-	public void testIsThreeOfaKind_2()
-	{
-		boolean result;
-		String[] input = new String[] {"D1", "C5", "D5", "H7", "C9"};
-		result = poker.isThreeOfaKind(input, 5);
-		assertEquals(false, result);
-	}
+
 
 	
 }
